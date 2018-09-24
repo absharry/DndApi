@@ -11,6 +11,8 @@ namespace DndApi.Domain
             this.AppKeyCreated = DateTime.UtcNow;
         }
 
+        public int ID { get; set; }
+
         public Guid AppKey { get; set; }
 
         public string AppName { get; set; }
