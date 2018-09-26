@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DndApi.Domain.Models
 {
-    public class RaceTraits : BaseModel
+    public class Condition : Descriptor
     {
-        public string Description { get; set; }
+
     }
 }

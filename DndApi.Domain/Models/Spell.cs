@@ -4,11 +4,13 @@ using System.Text;
 
 namespace DndApi.Domain.Models
 {
-    using Enums;
+    using Core.Enums;
 
-    public class Spells : BaseModel
+    public class Spell : BaseModel
     {
-        public Race PrimaryRace { get; set; }
+        public Class PrimaryClass { get; set; }
+
+        public List<Class> SubClasses { get; set; }
 
         public int SpellLevel { get; set; }
 
@@ -25,5 +27,7 @@ namespace DndApi.Domain.Models
         public string Duration { get; set; }
 
         public string Description { get; set; }
+
+        public bool Ritual { get; set; }                 
     }
 }

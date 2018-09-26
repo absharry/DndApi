@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DndApi.Domain.Models
 {
-    public class Levels : BaseModel
+    public class Level : BaseModel
     {
         public int ProficiencyBonus { get; set; }
 

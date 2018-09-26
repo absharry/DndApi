@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DndApi.Services.Authentication
+namespace DndApi.Authentication.Services
 {
-    using DndApi.Domain;
+    using Models;
 
     public class AuthenticationService : IAuthenticationService
     {

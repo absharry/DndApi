@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndApi.Api", "DndApi\DndApi.Api.csproj", "{050701A5-483B-4B10-AA92-349F42F8FEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndApi.Api", "DndApi\DndApi.Api.csproj", "{050701A5-483B-4B10-AA92-349F42F8FEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndApi.Services", "DndApi.Services\DndApi.Services.csproj", "{967939AD-F702-4448-ADB0-1F0EF8753FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndApi.Services", "DndApi.Services\DndApi.Services.csproj", "{967939AD-F702-4448-ADB0-1F0EF8753FFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndApi.Domain", "DndApi.Domain\DndApi.Domain.csproj", "{9533E2C2-7787-4121-B366-00D3A3949B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndApi.Domain", "DndApi.Domain\DndApi.Domain.csproj", "{9533E2C2-7787-4121-B366-00D3A3949B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndApi.Core", "DndApi.Core\DndApi.Core.csproj", "{1F93E5AD-0FB1-4802-BF84-8DD3A6C5A4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndApi.Authentication", "DndApi.Authentication\DndApi.Authentication.csproj", "{4CC226A9-4A46-4D38-A98B-76B62E0CEEE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{9533E2C2-7787-4121-B366-00D3A3949B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9533E2C2-7787-4121-B366-00D3A3949B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9533E2C2-7787-4121-B366-00D3A3949B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F93E5AD-0FB1-4802-BF84-8DD3A6C5A4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F93E5AD-0FB1-4802-BF84-8DD3A6C5A4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F93E5AD-0FB1-4802-BF84-8DD3A6C5A4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F93E5AD-0FB1-4802-BF84-8DD3A6C5A4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC226A9-4A46-4D38-A98B-76B62E0CEEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC226A9-4A46-4D38-A98B-76B62E0CEEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC226A9-4A46-4D38-A98B-76B62E0CEEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC226A9-4A46-4D38-A98B-76B62E0CEEE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DndApi.Core\DndApi.Core.csproj" />
+    <ProjectReference Include="..\DndApi.Domain\DndApi.Domain.csproj" />
   </ItemGroup>
 
 </Project>

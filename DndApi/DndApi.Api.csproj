@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DndApi.Authentication\DndApi.Authentication.csproj" />
     <ProjectReference Include="..\DndApi.Services\DndApi.Services.csproj" />
   </ItemGroup>
 

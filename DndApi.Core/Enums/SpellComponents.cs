@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DndApi.Domain.Enums
+namespace DndApi.Core.Enums
 {
     public enum SpellComponents
     {

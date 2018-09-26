@@ -2,11 +2,11 @@
 {
     using System.Security.Claims;
     using System.Security.Principal;
+    using DndApi.Authentication.Services;
     using Nancy;
     using Nancy.Authentication.Stateless;
     using Nancy.Bootstrapper;
     using Nancy.TinyIoc;
-    using Services.Authentication;
 
     public class Bootstrapper : DefaultNancyBootstrapper
 
@@ -24,12 +24,6 @@
 
         protected override void RequestStartup(TinyIoCContainer container, IPipelines pipelines, NancyContext context)
         {
-            // At request startup we modify the request pipelines to
-            // include stateless authentication
-            //
-            // Configuring stateless authentication is simple. Just use the
-            // NancyContext to get the apiKey. Then, use the apiKey to get
-            // your user's identity.
             var configuration =
                 new StatelessAuthenticationConfiguration(nancyContext =>
                 {
@@ -37,9 +31,6 @@
                     {
                         return null;
                     }
-
-                    // This would where you authenticated the request. IUserApiMapper is
-                    // not a Nancy type.
                     var apiValidator =
                         container.Resolve<AuthenticationService>();
 

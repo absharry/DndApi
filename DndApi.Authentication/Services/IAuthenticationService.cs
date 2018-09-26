@@ -1,7 +1,7 @@
-﻿namespace DndApi.Services.Authentication
+﻿namespace DndApi.Authentication.Services
 {
     using System;
-    using Domain;
+    using Models;
 
     public interface IAuthenticationService
     {

@@ -22,6 +22,6 @@ namespace DndApi.Domain.Models
 
         public int BaseSpeed { get; set; }
 
-        public List<RaceTraits> Traits { get; set; }
+        public List<RaceTrait> Traits { get; set; }
     }
 }

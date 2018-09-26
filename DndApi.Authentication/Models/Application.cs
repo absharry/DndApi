@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DndApi.Domain
+namespace DndApi.Authentication.Models
 {
     public class Application
     {
